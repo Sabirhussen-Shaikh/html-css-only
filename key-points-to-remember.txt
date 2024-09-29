@@ -33,3 +33,22 @@ POSITION
         
     3.z-index determines which div appears on top (z-axis)
        default is 0
+
+media query function is make website responsive 
+
+syntax:
+@media (<width_type> : <size>px){
+    //target with id or class;
+}
+
+example :
+
+body {
+  background-color: pink;
+}
+
+@media(min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
