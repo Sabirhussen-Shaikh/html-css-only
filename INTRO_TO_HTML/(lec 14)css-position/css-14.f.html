@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14.f</title>
+    <style>
+        .sidebar1{
+            position: fixed;
+            background-color: rgb(36, 35, 35);
+            color: wheat;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 70px;
+        }
+
+        .sidebar2{
+            position: fixed;
+            background-color: rgb(66, 64, 64);
+            color: white;
+            top: 0;
+            bottom: 0;
+            left: 40px;
+            width: 120px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+
+        .pan{
+            height: 30px;
+            width: 30px;
+            margin-left:5px ;
+            margin-top: 9px;
+            border-radius: 16px;
+        }
+
+        .info{
+            display: flex;
+            justify-content: space-between;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 10px;
+        }
+
+        .text{
+            font-size: small;
+            margin-bottom: 8px;
+            color: rgb(155, 148, 148);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body style="padding-bottom: 500px;">
+    <div class="sidebar1">
+        <div><img class="pan" src="panda.jpg"></div>
+        <div><img class="pan" src="cat.jpg"></div>
+    </div>
+    <div class="sidebar2">
+        <div class="info">
+            <div>INFO</div>
+            <div>+</div>
+        </div>
+        <div class="text"># new-videos</div>
+        <div class="text"># updates</div>
+        <div class="text"># faq</div>
+    </div>
+    
+</body>
+</html>

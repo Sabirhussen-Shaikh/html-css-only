@@ -1,0 +1,438 @@
+<h1>LECTURE 4</h1>
+<p>PADDING</p>
+
+<style>
+  .SUBSCRIBE_button {
+    background-color: rgb(202, 40, 40);
+    color: white;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+  }
+
+  .SUBSCRIBE_button:hover {
+    opacity: 0.8;
+  }
+
+  .SUBSCRIBE_button:active {
+    opacity: 0.5;
+  }
+
+  .JOIN_button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+  }
+  .JOIN_button:active {
+    opacity: 0.7;
+  }
+
+  .JOIN_button {
+    background-color: white;
+    color: rgb(43, 133, 169);
+    border-color: rgb(43, 133, 169);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .TWEET_button {
+    background-color: rgb(2, 158, 255);
+    border: none;
+    border-radius: 22px;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: box_shadow 0.15, opacity 0.15s;
+  }
+  .TWEET_button:hover {
+    box-shadow: 10px 10px 10px rgba(1, 1, 71, 0.5);
+  }
+
+  .TWEET_button:active {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.7;
+  }
+</style>
+
+<button class="SUBSCRIBE_button">SUBSCRIBE.text</button>
+
+<button class="JOIN_button">JOIN my channel</button>
+
+<button class="TWEET_button">TWEET</button>
+
+<hr />
+<hr />
+
+<h3>EXERCISES 4</h3>
+
+<p>4.a.Uber</p>
+<style>
+  .rn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .rn:hover {
+    opacity: 0.8;
+  }
+</style>
+<button class="rn">Request now</button>
+
+<p>4.b.Amazon</p>
+<style>
+  .atc {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: 550;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .atc:hover {
+    background-color: rgb(255, 228, 20);
+  }
+
+  .atc:active {
+    opacity: 0.7;
+  }
+</style>
+<button class="atc">Add to Cart</button>
+
+<p>4.c.GitHub</p>
+<style>
+  .su {
+    background-color: rgb(60, 174, 92);
+    color: white;
+    border: none;
+    font-size: 16;
+    font-weight: 500;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+
+  .su:hover {
+    box-shadow: 0px 10px 15px rgba(1, 122, 1, 0.503);
+  }
+</style>
+<button class="su">Sign up</button>
+
+<p>4.d.Bootstrap</p>
+<style>
+  .gs {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 200;
+    margin-right: 6px;
+    transition: background-color 0.15s;
+  }
+
+  .gs:hover {
+    background-color: rgb(103, 82, 179);
+  }
+
+  .d {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-radius: 3px;
+    border-width: 1px;
+    transition: background-color 0.15s;
+  }
+
+  .d:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
+
+  .d:active {
+    opacity: 0.6;
+  }
+</style>
+<button class="gs">Get started</button>
+<button class="d">Download</button>
+
+<p>4.e.LinkedIn</p>
+<style>
+  .ap {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-size: large;
+    border: none;
+    transition: background-color 0.15s;
+  }
+
+  .ap:hover {
+    background-color: rgb(10, 56, 194);
+  }
+
+  .save {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-size: large;
+    border-width: 1px;
+    border-color: rgb(10, 102, 194);
+    transition: background-color 0.15s;
+    transition: border-width 0.1s;
+  }
+
+  .save:hover {
+    background-color: rgb(216, 233, 250);
+    border-width: 2px;
+  }
+</style>
+<button class="ap">Apply on company website</button>
+<button class="save">Save</button>
+
+<hr />
+<p>4.f</p>
+<style>
+  .link:hover {
+    color: orange;
+  }
+  .sto {
+    color: green;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .a {
+    background-color: gold;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+    border-radius: 22px;
+    transition: background-color 0.15s;
+    transition: opacity 0.15s;
+    margin-right: 14px;
+    margin-left: 14px;
+  }
+
+  .a:hover {
+    background-color: rgb(255, 234, 0);
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+
+  .a:active {
+    opacity: 0.7;
+  }
+
+  .b {
+    background-color: goldenrod;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 22px;
+    transition: background-color 0.15s;
+    transition: opacity 0.15s;
+  }
+
+  .b:hover {
+    background-color: rgb(218, 156, 32);
+  }
+
+  .b:active {
+    background-color: black;
+    color: goldenrod;
+  }
+</style>
+<a class="link" href="https://www.amazon.com" target="_blank">Back to Amazon</a>
+<h1>Nike Black Running Shoes</h1>
+<p class="sto">$39-in stock.</p>
+<h3>Free delivery tomorrow.</h3>
+<button class="a">Add to Cart</button>
+<button class="b">Buy now</button>
+<hr />
+
+<p>4.h.pagination</p>
+<style>
+  .p {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .p:hover {
+    color: hotpink;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: larger;
+  }
+
+  .med {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+</style>
+<button class="med">Back</button>
+<a class="p" href="https://www.youtude.com">1</a>
+<a class="p" href="https://www.youtude.com">2</a>
+<a class="p" href="https://www.youtude.com">3</a>
+<a class="p" href="https://www.youtude.com">4</a>
+<a class="p" href="https://www.youtude.com">5</a>
+<button class="med">Next</button>
+<hr />
+
+<p>4.i.Stretch</p>
+<style>
+  .button {
+    background-color: greenyellow;
+    color: blue;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: padding-left 0.15s;
+    transition: padding-bottom 0.15s;
+  }
+
+  .button:hover {
+    background-color: blue;
+    color: greenyellow;
+    padding-left: 20px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-right: 20px;
+  }
+</style>
+<button class="button">Stretch</button>
+<hr />
+
+<p>4.j.3D Click</p>
+<style>
+  .shw {
+    background-color: rgb(176, 249, 249);
+    color: rgb(170, 97, 7);
+    border-width: 1px;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.725);
+  }
+
+  .shw:hover {
+    background-color: rgb(176, 249, 188);
+    color: rgb(170, 78, 7);
+  }
+
+  .shw:active {
+    box-shadow: 0px 0px 0px black;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+</style>
+<button class="shw">Shadow</button>
+<hr />
+
+<p>4.k.pop_button</p>
+<style>
+  .ot {
+    background-color: green;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+
+  }
+
+  .ot:hover {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 17px;
+    padding-right:17px ;
+    padding-top:11px ;
+    padding-bottom:11px ;
+    font-size: large;
+    font-weight: bold;
+    
+  }
+</style>
+<button id="otta" class="ot">One</button>
+<button id="ottb" class="ot">Two</button>
+<button id="ottc" class="ot">Three</button>
+<button id="o" class="ot">Four</button>
+<button id="otr" class="ot">Five</button>
+

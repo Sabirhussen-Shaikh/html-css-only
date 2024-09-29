@@ -1,0 +1,214 @@
+p {
+    font-family: Arial;
+  }
+  .vt {
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
+
+  .vs {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 0px;
+  }
+
+  .te {
+    font-size: 14px;
+    width: 300px;
+    color: rgb(96, 96, 96);
+    line-height: 22px;
+    margin-top: 0px;
+  }
+  /*apple box*/
+  .apple {
+    background-color: rgb(227, 65, 64);
+    color: white;
+    padding-right: 22px;
+    padding-left: 22px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 468px;
+    margin-left: 30px;
+  }
+
+  .sn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+
+
+  .par {
+    color: red;
+    margin-left: 50px;
+  }
+  .par:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: large;
+  }
+  /*exersises*/
+  /*5.a*/
+  .t {
+    font-family: Tahoma;
+    font-size: large;
+    font-weight: bold;
+  }
+  /*5.b*/
+  .bd {
+    font-size: large;
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+
+  .se {
+    font-style: italic;
+    color: red;
+    margin-top: 0px;
+  }
+  /*5.c*/
+  .ca {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+
+  .cc {
+    color: rgb(96, 96, 96);
+    margin-top: 0px;
+  }
+
+  .cd {
+    font-weight: 100px;
+    width: 270px;
+  }
+
+  .ce {
+    color: white;
+    background-color: green;
+    border-radius: 7px;
+    border: none;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.615);
+    margin-bottom: 10px;
+  }
+  /*5.d*/
+  .da {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .db {
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+  }
+
+  .dc {
+    margin-left: 330px;
+    font-size: large;
+    font-weight: bold;
+  }
+  /*5.e*/
+  
+  .ea {
+    color: rgb(213, 154, 2);
+    font-size: small;
+    font-weight: bold;
+  }
+
+  .eb {
+    font-weight: bold;
+  }
+  .ec {
+    font-size: large;
+    font-weight: bold;
+  }
+  .ed {
+    font-size: small;
+  }
+  .ee {
+    margin-left: 330px;
+    color: white;
+    background-color: rgb(0, 106, 255);
+    border-radius: 12px;
+    border: none;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.615);
+    margin-bottom: 10px;
+  }
+  .ea,
+  .eb,
+  .ec,
+  .ed,
+  .ec,
+  .ee {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  /*5.f*/
+  
+  .sg {
+    font-size: x-large;
+    margin-right: 7px;
+    margin-bottom: 0px;
+  }
+  .st {
+    color: rgb(96, 96, 96);
+    font-size: small;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .gray {
+    color: rgb(96, 96, 96);
+    font-size: small;
+  }
+  .red {
+    color: red;
+    font-size: small;
+  }
+  .gr {
+    color: green;
+    font-size: small;
+  }
+  .up {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  /*5.g*/
+
+  .gy,.time{
+    color: rgb(96, 96, 96);
+    margin-left: 4px;
+  }
+  .ttt{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 500px;
+  }
+  .here{
+    font-weight: 555;
+  }
+  .ch{
+    color: rgb(0, 204, 255);
+    margin-left: 3px;
+    margin-right: 4px;
+    text-decoration: none;
+  }
+  .fcc{
+    margin-bottom: 4px;
+  }

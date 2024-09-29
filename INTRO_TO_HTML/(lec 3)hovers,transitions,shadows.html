@@ -1,0 +1,289 @@
+<h1>LECTURE 3</h1>
+<p>HOVER,TRANSITION,SHADOWS</p>
+
+<style>
+  .SUBSCRIBE_button {
+    background-color: rgb(202, 40, 40);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+  }
+
+  .SUBSCRIBE_button:hover {
+    opacity: 0.8;
+  }
+
+  .SUBSCRIBE_button:active {
+    opacity: 0.5;
+  }
+
+  .JOIN_button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+  }
+  .JOIN_button:active {
+    opacity: 0.7;
+  }
+
+  .JOIN_button {
+    background-color: white;
+    color: rgb(43, 133, 169);
+    border-color: rgb(43, 133, 169);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    height: 36px;
+    width: 62px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .TWEET_button {
+    background-color: rgb(2, 158, 255);
+    border: none;
+    border-radius: 22px;
+    color: white;
+    height: 36px;
+    width: 74px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: box_shadow 0.15, opacity 0.15s;
+  }
+  .TWEET_button:hover {
+    box-shadow: 10px 10px 10px rgba(1, 1, 71, 0.5);
+  }
+
+  .TWEET_button:active {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.7;
+  }
+</style>
+
+<button class="SUBSCRIBE_button">SUBSCRIBE</button>
+
+<button class="JOIN_button">JOIN</button>
+
+<button class="TWEET_button">TWEET</button>
+
+<hr />
+<hr />
+
+<h3>EXERCISES 3</h3>
+
+<p>3.a.Uber</p>
+<style>
+  .rn {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 46px;
+    width: 120px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .rn:hover {
+    opacity: 0.8;
+  }
+</style>
+<button class="rn">Request now</button>
+
+<p>3.b.Amazon</p>
+<style>
+  .atc {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 36px;
+    width: 180px;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: 550;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .atc:hover {
+    background-color: rgb(255, 228, 20);
+  }
+
+  .atc:active {
+    opacity: 0.7;
+  }
+</style>
+<button class="atc">Add to Cart</button>
+
+<p>3.c.GitHub</p>
+<style>
+  .su {
+    background-color: rgb(60, 174, 92);
+    color: white;
+    border: none;
+    font-size: 16;
+    font-weight: 500;
+    border-radius: 5px;
+    height: 36px;
+    width: 90px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+
+  .su:hover {
+    box-shadow: 0px 10px 15px rgba(1, 122, 1, 0.503);
+  }
+</style>
+<button class="su">Sign up</button>
+
+<p>3.d.Bootstrap</p>
+<style>
+  .gs {
+    height: 36px;
+    width: 100px;
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 200;
+    margin-right: 6px;
+    transition: background-color 0.15s;
+  }
+
+  .gs:hover {
+    background-color: rgb(103, 82, 179);
+  }
+
+  .d {
+    height: 36px;
+    width: 100px;
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-radius: 3px;
+    border-width: 1px;
+    transition: background-color 0.15s;
+  }
+
+  .d:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
+
+  .d:active {
+    opacity: 0.6;
+  }
+</style>
+<button class="gs">Get started</button>
+<button class="d">Download</button>
+
+<p>3.e.LinkedIn</p>
+<style>
+  .ap {
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-size: large;
+    border: none;
+    transition: background-color 0.15s;
+  }
+
+  .ap:hover {
+    background-color: rgb(10, 56, 194);
+  }
+
+  .save {
+    height: 40px;
+    width: 90px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-size: large;
+    border-width: 1px;
+    border-color: rgb(10, 102, 194);
+    transition: background-color 0.15s;
+    transition: border-width 0.1s;
+  }
+
+  .save:hover {
+    background-color: rgb(216, 233, 250);
+    border-width: 2px;
+  }
+</style>
+<button class="ap">Apply on company website</button>
+<button class="save">Save</button>
+
+<hr />
+<p>3.f</p>
+<style>
+  .link:hover{
+    color: orange;
+  }
+  .sto{
+    color: green;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .a{
+    background-color: gold;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+    border-radius: 22px;
+    transition: background-color 0.15s;
+    transition: opacity 0.15s;
+  }
+
+  .a:hover{
+    background-color: rgb(255, 234, 0);
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .a:active{
+    opacity: 0.7;
+  }
+
+  .b{
+    background-color:goldenrod;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    height: 36px;
+    width: 150px;
+    border-radius: 22px;
+    transition: background-color 0.15s;
+    transition: opacity 0.15s;
+    margin-left: 14px;
+  }
+
+  .b:hover{
+    background-color: rgb(218, 156, 32);
+  }
+
+  .b:active{
+    background-color: black;
+    color: goldenrod;
+  }
+
+</style>
+<a class="link" href="https://www.amazon.com" target="_blank">Back to Amazon</a>
+<h1>Nike Black Running Shoes</h1>
+<p class="sto">$39-in stock.</p>
+<h3>Free delivery tomorrow.</h3>
+<button class="a">Add to Cart</button>
+<button class="b">Buy now</button>
+<hr>
+

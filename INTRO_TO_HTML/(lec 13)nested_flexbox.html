@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nes-flexbox</title>
+    <style>
+      .col1 {
+        background-color: lightpink;
+        height: 30px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .col2 {
+        background-color: lightblue;
+        width: 200px;
+      }
+
+      .item1 {
+        background-color: black;
+        color: white;
+      }
+
+      .col3 {
+        background-color: lightpink;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .col4 {
+        background-color: lightblue;
+        width: 200px;
+        height: 50px;
+      }
+
+    </style>
+  </head>
+  <body style="padding-bottom: 100px">
+    <p>13.a</p>
+    <div style="display: flex">
+      <div class="col1">
+        <div class="item1">item1</div>
+      </div>
+      <div class="col2"></div>
+    </div>
+
+    <p>13.b</p>
+    <div style="display: flex;">
+        
+      <div class="col3"></div>
+
+      <div class="col4">
+        <div>row1</div>
+
+        <div style="display: flex;justify-content: space-between;align-items: center;">
+          <div class="item1">row2</div>
+          <div class="item1">row3</div>
+        </div>
+
+      </div>
+    </div>
+
+    <p>13.c</p>
+    <div class="col5">
+        <p class="smallcolur">ALL INBOXES</p>
+        <div class="contain">
+            <div>
+                <img class="propic" src="pic/panda.jpg">
+            </div>
+
+            <div style="width: 270px;">
+                <div style="display: flex;justify-content: space-between;">
+                    <div style="font-weight: bold;">Chewy promotions</div>
+                    <div class="smallcolur">4:58 PM</div>
+                </div>
+                <div style="font-size: small;
+                font-weight: bold;">Biggest sales of the year!</div>
+                <div class="smallcolur">Hey there! We're writing to tell you about our...</div>
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+
+
+    <p>13.d</p>
+    <style>
+        .col5{
+            box-shadow: 0px 0px 10px black;
+            width: 344px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-bottom: 15px;
+        }
+        .contain{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .propic{
+            height: 50px;
+            width: 50px;
+            border-radius: 30px;
+            margin-right: 10px;
+        }
+
+        .smallcolur{
+            font-size: small;
+             color: rgb(96,96,96);
+
+        }
+    </style>
+    <div class="col5">
+        <p class="smallcolur">ALL INBOXES</p>
+        <div class="contain">
+            <div>
+                <img class="propic" src="pic/panda.jpg">
+            </div>
+
+            <div style="width: 270px;">
+                <div style="display: flex;justify-content: space-between;">
+                    <div style="font-weight: bold;">Chewy promotions</div>
+                    <div class="smallcolur">4:58 PM</div>
+                </div>
+                <div style="font-size: small;
+                font-weight: bold;">Biggest sales of the year!</div>
+                <div class="smallcolur">Hey there! We're writing to tell you about our...</div>
+            </div>
+        </div>
+        <div class="contain">
+            <div>
+                <img class="propic" src="pic/chick.jpg">
+            </div>
+
+            <div style="width: 270px;">
+                <div style="display: flex;justify-content: space-between;">
+                    <div style="font-weight: bold;">Best Buy</div>
+                    <div class="smallcolur">9:00 AM</div>
+                </div>
+                <div style="font-size: small;
+                font-weight: bold;">Best Buy eReceipt
+                </div>
+                <div class="smallcolur">Hey there! We're writing to tell you about our...</div>
+            </div>
+        </div>
+        <div class="contain">
+            <div>
+                <img class="propic" src="pic/rabbit.jpg">
+            </div>
+
+            <div style="width: 270px;">
+                <div style="display: flex;justify-content: space-between;">
+                    <div style="font-weight: bold;">Netflix</div>
+                    <div class="smallcolur">12:32 PM</div>
+                </div>
+                <div style="font-size: small;
+                font-weight: bold;">Biggest sales of the year!</div>
+                <div class="smallcolur">Hey there! We're writing to tell you about our...</div>
+            </div>
+        </div>
+
+    </div>
+
+    <p>13.f</p>
+    <style>
+     .con{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.593);
+        border-radius: 10px;
+    }
+
+    .propic2{
+            height: 50px;
+            width: 50px;
+            border-radius: 30px;
+            margin-right: 10px;
+            vertical-align: top;
+      }
+
+   .tain{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.593);
+            width: 430px;
+            padding-top: 10px;
+            
+      }
+
+
+    </style>
+    <div class="tain">
+        <div>
+            <img class="propic2" src="pic/rabbit.jpg">
+        </div>
+
+        <div style="width: 350px;">
+            <div>
+                <div style="font-weight: bold;font-size: small;font-family: Arial, Helvetica, sans-serif;">supersimple.dev <span style="color: rgb(85, 85, 85);">@SuperSimpleDev</span></div>
+            </div>
+            <div style="font-weight: bold;
+            margin-top: 2px;">
+            What is backend web development? A complete overview. New video is up!
+            </div>
+            <div class="con">
+                <div style="width: 150px;height: 70px; background-color: rgb(215, 215, 215);
+                border-bottom-left-radius:10px ;
+                border-top-left-radius: 10px;"></div>
+                <div style="margin-left: 10px;">
+                    <div>youtube.com</div>
+                    <div>Backend web development-a complete overview (2021)</div>
+                </div>
+            </div>
+    </div>
+    
+
+  </body>
+</html>

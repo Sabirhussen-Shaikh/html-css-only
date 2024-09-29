@@ -1,0 +1,35 @@
+flex-shrink=0; => don't shrink.
+width:0; => shrink
+
+grid is row and colums format.
+display: grid;
+
+for nested div
+    vertical alignment use:
+    <div>
+
+    horizontal alignment use:
+    <div>
+    display:inline-block;
+
+for grid
+    <div>
+         vertical alignment use:
+         <div>
+
+         horizontal alignment use:
+        <div  style="display:grid;
+        grid-template-columns: 100px 1fr 2fr;
+        ">
+        
+    <div>
+
+POSITION
+    1.position:fixed;
+        fixed => placed in the browser window.
+
+    2.position:absolute;
+        absolute =>placed on the page.
+        
+    3.z-index determines which div appears on top (z-axis)
+       default is 0

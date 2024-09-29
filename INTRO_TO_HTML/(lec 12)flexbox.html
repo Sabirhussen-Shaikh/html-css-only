@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox</title>
+  </head>
+
+  <body style="padding-bottom: 90px;">
+    <div style="display: flex; flex-direction: row">
+      <div style="background-color: lightgoldenrodyellow">div1 naruto</div>
+      <div style="background-color: lightgreen">
+        div2
+        <p>kurama</p>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 10px">
+      <div style="background-color: lightgoldenrodyellow; width: 100px">
+        100px
+      </div>
+      <div style="background-color: lightgreen; flex: 1">flex:1</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 10px">
+      <div style="background-color: lightgoldenrodyellow; width: 100px">
+        100px
+      </div>
+      <div style="background-color: lightgreen; flex: 1">flex:1</div>
+      <div style="background-color: lightgoldenrodyellow; flex: 2">flex:2</div>
+    </div>
+    <hr>
+    <hr>
+<!--demo bar-->
+
+    <div style="display: flex; flex-direction: row; margin-top: 10px;
+    height: 70px; border-width: 1px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: gray;
+    
+    justify-content: center;">
+      <div style="background-color: lightgoldenrodyellow; width: 100px">
+        100px
+      </div>
+      <div style="background-color: lightgreen; width: 100px;">100px</div>
+      <div style="background-color: lightgoldenrodyellow; width: 100px;">100px</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 10px;
+    height: 70px; border-width: 1px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: gray;
+    
+    justify-content: space-between;">
+      <div style="background-color: lightgoldenrodyellow; width: 100px">
+        100px
+      </div>
+      <div style="background-color: lightgreen; width: 100px;">100px</div>
+      <div style="background-color: lightgoldenrodyellow; width: 100px;">100px</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 10px;
+    height: 70px; border-width: 1px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: gray;
+    background-color: aqua;
+    
+    justify-content: space-between;
+    align-items: center;">
+      <div style="background-color: lightgoldenrodyellow; width: 100px">
+        100px
+      </div>
+      <div style="background-color: lightgreen; width: 100px;">100px</div>
+      <div style="background-color: lightgoldenrodyellow; width: 100px;">100px</div>
+    </div>
+
+    <hr>
+    <p>12.a</p>
+    <div style="display: flex;
+    flex-direction: row;">
+      <div style="background-color: lightsalmon;width: 200px;">200px</div>
+      <div style="background-color: lightseagreen; width: 75px;">75px</div>
+    </div>
+
+    <p>12.b</p>
+    <div style="display: flex;
+    flex-direction: row;">
+      <div style="background-color: lightsalmon;width: 50px;">item1</div>
+      <div style="background-color: lightseagreen; flex: 1;">item2</div>
+      <div style="background-color: lightsalmon;width: 75px;">item3</div>
+    </div>
+
+    <p>12.c</p>
+    <div style="display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;">
+       <div style="background-color: lightsalmon;width: 50px;">item1</div>
+       <div style="background-color: lightseagreen; width: 50px;">item2</div>
+       <div style="background-color: lightsalmon;width: 50px;">item3</div>
+       <div style="background-color: lightseagreen; width: 50px;">item4</div>
+    </div>
+
+    <p>12.d</p>
+    <div style="display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    height: 50px;
+    align-items: center;">
+      <div style="background-color: lightsalmon;width: 50px;">item1</div>
+      <div style="background-color: lightseagreen; width: 50px;">item2</div>
+    </div>
+
+    <hr>
+    <p>12.e</p>
+    <style>
+
+      .grp{
+        width: 200px;
+        border-width: 1px;
+        border-style: solid;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-radius: 6px;
+        border-color: rgba(96, 96, 96, 0.592);
+      }
+
+      .all{
+            display: flex;
+        justify-content: space-between;
+        vertical-align: middle;
+        margin-bottom: 7px;
+      }
+
+      .obj{
+          font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .not{
+        background-color: rgb(0, 115, 255);
+        color: white;
+      padding-left: 9px;
+      padding-right: 9px;
+      border-radius: 10px;  
+      }
+
+    </style>
+    <div class="grp">
+
+      <div class="all">
+        <div class="obj" >Home</div>
+        <div class="not" >14</div>  
+      </div>
+
+      <div class="all">
+        <div class="obj" >Notification</div>
+        <div class="not" >3</div>  
+      </div>
+
+      <div class="all">
+        <div class="obj" >Messages</div>
+        <div class="not" >5</div>  
+      </div>
+
+    </div>
+
+    <p>12.f</p>
+    <style>
+      .frm{
+        background-color:  rgb(121,82,179);
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        display: flex;
+        justify-content: space-between;
+        vertical-align: middle;
+        min-width: 400px;
+        align-items: center;
+      }
+
+      div{
+        font-family: arial;;
+      }
+
+      .home{
+        color: white;
+        width: 90px;
+      }
+
+      .bar{
+        vertical-align: middle;
+        border-radius:550px ;
+        display: flex;
+        flex: 1;
+        align-items: center;
+      }
+
+      .dn{
+        background-color: rgb(121,82,179);
+        color: white;
+        border-color:white ;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px;
+        font-weight: 200;
+        margin-right: 6px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        width: 100px;
+      }
+
+    </style>
+    <div class="frm">
+      <div class="home">Home</div>
+      <div class="bar"><input type="text" placeholder="Search"></div>
+      <div><button class="dn">Download</button></div>
+    </div>
+
+
+    
+  </body>
+</html>

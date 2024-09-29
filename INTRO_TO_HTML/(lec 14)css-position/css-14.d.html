@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14.d</title>
+    <style>
+        .rsb{
+            position: fixed;
+            background-color: greenyellow;
+            width: 100px;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            
+        }
+
+        .overlay{
+            background-color: rgba(0,0,0,0.5);
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contain{
+            background-color: white;
+            width: 240px;
+            border-radius: 7px;
+            padding-bottom: 17px;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.503);
+            z-index: 1;
+        }
+
+        .mar{
+            margin-left: 15px;
+        }
+
+        .mo-t{
+            margin-left: 15px;
+        }
+
+    </style>
+</head>
+<body style="height: 3000px;">
+
+    <div >
+        <div class="rsb">
+            right sidebar
+        </div>
+    
+        <div class="overlay">
+            <div class="contain">
+                <div class="modal">
+                    <p  class="mo-t">Model Title</p>
+                </div>
+                
+                <p class="mar">This is a model</p>
+                <button class="mar">close</button>
+            </div>
+    
+        </div>
+    </div>
+   
+
+    
+    
+</body>
+</html>
